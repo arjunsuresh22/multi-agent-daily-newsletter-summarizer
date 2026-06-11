@@ -297,6 +297,89 @@ Together these two files create a **feedback loop**: you give raw guidance → H
 
 ---
 
+## Example Output
+
+<details>
+<summary><strong>📋 Sample Daily Digest — June 10–11, 2026</strong> (click to expand)</summary>
+
+> Real output from the pipeline over two consecutive days. Sources: a16z, SemiAnalysis, Aishwarya Srinivasan, Lenny's Podcast. Paywalled articles are supplemented with a web search fill. Podcast summaries are from full YouTube transcripts (~24K tokens).
+
+---
+
+### Everything is Recorded Now — a16z
+
+**TL;DR**
+- Work meetings are being recorded by default — this wasn't a policy decision, it just happened, and it's not reversible
+- The right mental model: onboard AI like you onboard employees — through meetings and osmosis, not docs and wikis
+- Two compounding advantages: bottom-up (ICs get a force-multiplied assistant) and top-down (executives get ambient oversight via AI proxies)
+- A new enterprise software category is emerging — voice-first systems of record that make conversational context structured and queryable
+
+**Stories & Examples**
+
+*Bridgewater: The Eccentric Policy That Turned Out to Be Prescient* — Bridgewater made recording all internal meetings policy years ago. At the time it looked cult-like. The argument: it was simply early. The logic that made Bridgewater look weird in 2015 is the same logic that makes AI-native companies look smart in 2026: institutional knowledge lives in conversation, not documentation, and capturing it compounds.
+
+*OpenAI: Agents Standing In for Senior Leaders* — AI agents now attend meetings on behalf of senior leaders who can't be present. The model that has ingested two years of internal discussion is simply a better assistant than the one that only read documentation.
+
+*Granola: Better Context Than Any Other Tool at a16z* — Granola has better context on a16z's culture and investments than almost any other tool they use — because it's been in the room. Presence at meetings beats access to documentation.
+
+**Key Insights**
+- Meetings are where culture actually lives — nuance on a customer call, the real argument in a product review, the offhand comment that shifts the roadmap — all of this lived in conversation and until now evaporated
+- The two advantages of recording are asymmetric: bottom-up (smarter assistants) is intuitive; top-down (executive visibility via AI proxies) gets less attention but may matter more
+- Verbal-culture companies (Shopify, OpenAI) historically lost their best context when conversations ended — AI recording closes that gap permanently
+
+---
+
+### Intel Should Raise Capital — SemiAnalysis *(paywalled, 35% complete)*
+
+**TL;DR**
+- Intel's new board finally understands technology over financial engineering
+- Has already raised ~$20B from U.S. government, SoftBank, Altera, Nvidia — SemiAnalysis argues keep going
+- A 4–5% equity dilution at current prices would raise ~$25B — the cheapest capital available
+- The Smart Capital JV strategy self-refuted: Intel spent $14.2B buying back a fab stake it had previously sold for $11.2B
+- Window is now: Intel trades at its most expensive TTM valuation since the 2000 bubble
+
+**Key Insights**
+- The Smart Capital strategy proved expensive in hindsight — if the buyback is accretive, the original sale was expensive
+- Intel carries ~$45B in debt; more debt isn't the answer; equity at a premium to recent strategic investors is accretive, not punitive
+- Research fill: the Terafab announcement and overflow from N3 shortage create a genuine upside scenario Intel can't fund from operations alone
+
+---
+
+### Tony Fadell: How to Build Real Taste — Lenny's Podcast *(full transcript, ~24K tokens)*
+
+**TL;DR**
+- Great products require opinion-based decisions from people with genuine taste — data alone can't get you to a differentiated 1.0
+- Every product needs three generations: make it, fix it, fix the business
+- Marketing isn't separate from product — it *is* product
+- AI makes it easier to ship fast, but "fast software" creates brittle foundations
+
+**Stories & Examples**
+
+*The iPhone Keyboard Debate* — The question dragged on for months at Apple. Hardware keyboard (BlackBerry loyalists, ~1–2% of mobile users) vs. virtual multi-touch (the other 98%). The team ran structured tests measuring speed and error rate. The virtual keyboard started "way down here" and improved slowly over months. The data didn't clearly favor either side. Jobs said: "We are going this way." Anyone not on board was told to leave the room. Steve's opinion won.
+
+*The iPod and Windows — The Decision That Saved Apple* — The original iPod launched Mac-only. Jobs refused Windows: "Over my dead body." First generation sold well to Mac loyalists, then flatlined. Same for the second. Fadell ran a skunk works project anyway. Third-generation iPod shipped with Windows support and iTunes Music Store. That's when it took off. Fadell's framing: "If we don't have Windows connectivity, the iPod doesn't cost $349. It costs $3,000 — because you have to buy a Mac." The halo effect from the iPod made the iPhone possible. Without it, Fadell believes there may have been no Apple.
+
+*The Nest Thermostat* — Pain: thermostats were universal but arcane; 50% of home energy bills went to heating/cooling nobody understood. New technology: AI that could learn household patterns automatically. Opinion-based leap: price it at $249 — five to six times more than existing thermostats — justified by $800–$1,200/year energy savings. Then reinvent purchase (Best Buy), installation (DIY), and the product itself. Nest wasn't a product; it was a system of innovations.
+
+*The Anthropic Source Code Leak* — Engineers who examined leaked code were alarmed. The main Claude loop was written in a way architects found brittle and nearly unreadable — code that should have been 12–15 subfunctions collapsed into a monolith. It worked. It passed tests. But it was unauditable. His analogy: fast fashion. Looks fine on day one. Doesn't survive one wash. The right use of AI: prototype aggressively, then architect properly.
+
+**Quotable Moments**
+> "You still need humans in the loop. Don't surrender to the machine. We can use the machines, but don't cognitively surrender."
+
+> "If we don't have Windows connectivity, the iPod doesn't cost $349. It costs $3,000. People aren't going to take a risk on a company that's almost bankrupt for $3,000."
+
+> "Fast software is like fast fashion. It looks fine on day one. It doesn't survive one wash."
+
+> "Marketing is product. If you don't understand how your customer finds, buys, installs, and lives with your product — you don't understand your product."
+
+---
+
+*Full sample digest (both days, all sources): [examples/sample-digest-june-10-11-2026.md](examples/sample-digest-june-10-11-2026.md)*
+
+</details>
+
+---
+
 ## Setup
 
 ### Prerequisites
