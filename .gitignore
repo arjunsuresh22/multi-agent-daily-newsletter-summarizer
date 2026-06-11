@@ -1,0 +1,25 @@
+# Credentials & secrets
+credentials.json
+token.json
+youtube_cookies.txt
+.env
+*.env
+
+# API keys / secrets (catch-all patterns)
+*secret*
+*api_key*
+*credentials*
+*cookies*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Output (optional — remove if you want to track digests)
+summaries/
+
+# Memory (contains processed IDs and personal feedback)
+memory/
